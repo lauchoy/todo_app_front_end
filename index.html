@@ -1,24 +1,53 @@
-<!DOCTYPE html>
 <html>
   <head>
-      <title>Todo Show | Todo List Application Front End</title>
-      <link rel="stylesheet" href="style.css" type="text/css" />
-      <link rel="stylesheet" href="show.css" type="text/css" />
+    <title>Todo List Application</title>
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+    <script type="text/javascript" src="index.js"></script>
   </head>
-
   <body>
-    <h1>
-      <img class="company-logo" src="https://public.3.basecamp.com/p/iahgNshn1oKq98sWGf1q89Vo/uploads/511042491/download/CodeNow%20Logo.png"></img>
-      Workshop Todo List
-    </h1>
+    <div>Player 1: NAME</div>
+    <h1>Workshop Todo List</h1>
+    <ul>
+      <li>
+        <input type="checkbox">
+        <a href="show.html">Make the curriculum</a>
+        <span class="pomodoro-estimate">4 pomodoros</span>
+      </li>
+      <li>
+        <input type="checkbox">
+        Buy workshop supplies
+        <span class="pomodoro-estimate">3 Pomodoros</span>
+      </li>
+      <li>
+        <input type="checkbox">
+        Meet with the volunteer trainers
+        <span class="pomodoro-estimate">2 Pomodoros</span>
+      </li>
+      <li>
+        <input type="checkbox">
+        Order food for Saturday and Sunday
+        <span class="pomodoro-estimate">1 Pomodoro</span>
+      </li>
+      <li>
+        <input type="checkbox">
+        Check pre-work assignments
+        <span class="pomodoro-estimate">2 Pomodoros</span>
+      </li>
+      <li>
+        <input type="checkbox">
+        Send workshop location to all the students
+        <span class="pomodoro-estimate">1 Pomodoro</span>
+      </li>
+      <li>
+        <input type="checkbox">
+        Have a great workshop
+        <span>0 Pomodoros</span>
+      </li>
+    </ul>
 
-    <div class="card">
-      <input type="checkbox" name=""/>
-      <h2>Make the curriculum</h2>
-      <span class="pomodoro-estimate">4 Pomodoros</span>
-      <a href="#" class="button" id="edit-todo-button">Edit</a>
-      <a href="#" class="button" id="delete-todo-button">Delete</a>
-      <a href="index.html" class="simple-link">Go back...</a>
-    </div>
+    <input type="text" placeholder="Add a new todo...">
+    <input type="number" placeholder="Pomodoro estimate...">
+    <input id="add-new-todo-button" type="submit" value="Add todo">
+    
   </body>
 </html>
